@@ -20,7 +20,7 @@ public class FCFS
 		{
 			wt[i]=tt[i]-bt[i];
 		}
-		int total_tt=0,total_wt=0;
+		int total_tt=0,total_wt=0;	//total turn around time     //total waiting time
 		System.out.printf("Processes Arrival time Burst time Waiting"
                 +" time Turn around time\n");
 		for(int i=0;i<n;i++)
